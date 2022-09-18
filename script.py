@@ -13,8 +13,10 @@ There Is No Practical Limits For My Filtering Capacity 🥳"""
 /filters - List All Filters
 
 <b>Buttons Commands:</b>
-URL Buttons - <code>[Button Text](buttonurl:https://t.me/SL_Filters_Bot)</code>
-Alert Buttons - <code>[Button Text](buttonalert:Alert Message)</code>
+URL Buttons:
+<code>[Button Text](buttonurl:https://t.me/SL_Filters_Bot)</code>
+Alert Buttons:
+<code>[Button Text](buttonalert:Alert Message)</code>
 
 <b>Connection Commands:</b>
 /connect - Connect PM
