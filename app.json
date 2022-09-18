@@ -10,7 +10,7 @@
     ],
     "website": "https://github.com/SLHansakaAnuhas",
     "repository": "https://github.com/SLHansakaAnuhas/SLFiltersBot",
-    "success_url": "https//t.me/Hansaka_Anuhas",
+    "success_url": "https://t.me/Hansaka_Anuhas",
     "env": {
         "WEBHOOK": {
             "description": "No need to change this field!",
