@@ -175,7 +175,7 @@ async def addfilter(client, message):
     )
 
 
-@Client.on_message(filters.command('viewfilters'))
+@Client.on_message(filters.command('filters'))
 async def get_all(client, message):
     
     chat_type = message.chat.type
@@ -207,9 +207,8 @@ async def get_all(client, message):
         return
 
     texts = await get_filters(grp_id)
-    count = await count_filters(grp_id)
-    if count:
-        filterlist = f"Total number of filters in **{title}** : {count}\n\n"
+    if texts:
+        filterlist = f"Total filters in **{title}**\n\n"
 
         for text in texts:
             keywords = " ×  `{}`\n".format(text)
