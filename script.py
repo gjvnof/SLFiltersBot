@@ -16,5 +16,5 @@ There Is No Practical Limits For My Filtering Capacity 🥳"""
 /connect - Connect PM
 /connections - List All Connections"""
 
-    ABOUT_MSG = """My Name: SL Filters Bo
+    ABOUT_MSG = """My Name: SL Filters Bot
 Creater: <a href=https://t.me/Hansaka_Anuhas>Hansaka Anuhas</a> 🇱🇰"""
