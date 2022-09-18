@@ -1,4 +1,4 @@
-import os
+import o
 import re
 import io
 import pyrogram
