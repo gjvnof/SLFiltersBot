@@ -217,7 +217,9 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    ],[
+                    InlineKeyboardButton("❓ Help", callback_data="help_data")
                 ]
             ]
         ),
@@ -243,7 +245,7 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("About", callback_data="about_data")
                 ]
             ]
         ),
