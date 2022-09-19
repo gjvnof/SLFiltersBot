@@ -30,8 +30,6 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('➕ Add Me As Admin In Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                    ],[
                     InlineKeyboardButton("❓ Help", callback_data="help_data")
                 ]
             ]
