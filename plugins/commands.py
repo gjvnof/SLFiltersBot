@@ -100,11 +100,11 @@ async def showinfo(client, message):
         user_name = "none"
 
     await message.reply_text(
-        f"<b>Name</b> : {name}\n\n"
-        f"<b>User ID</b> : <code>{id}</code>\n\n"
-        f"<b>Username</b> : {user_name}\n\n"
-        f"<b>Permanant USER link</b> : <a href='tg://user?id={id}'>Click here!</a>\n\n"
-        f"<b>DC ID</b> : {dcid}\n\n",
+        f"<b>Name</b> : {name}\n"
+        f"<b>User ID</b> : <code>{id}</code>\n"
+        f"<b>Username</b> : {user_name}\n"
+        f"<b>Permanant USER link</b> : <a href='tg://user?id={id}'>Click here!</a>\n"
+        f"<b>DC ID</b> : {dcid}\n",
         quote=True,
         parse_mode="html"
     )
