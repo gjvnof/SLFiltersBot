@@ -1,8 +1,7 @@
 class Script(object):
 
     START_MSG = """Hello {} 👋
-I'm An Advanced Filter Bot With Many Capabilities 🤩
-There Is No Practical Limits For My Filtering Capacity 🥳"""
+I'm An Advanced Filters Bot 😎"""
 
     HELP_MSG = """Add Me As Admin In Your Group And Start Filtering
 
