@@ -1,4 +1,4 @@
-import os
+import o
 import ast
 
 from pyrogram import Client as trojanz
