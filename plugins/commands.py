@@ -212,12 +212,12 @@ async def bot_status(client,message):
 @trojanz.on_message(filters.command('start') & filters.private)
 async def start(client, message):
     await message.reply_text(
-        text=Script.START_MSG.format(message.from_user.mention),
+        text=Script.START_MSG.format(message.from_user.mention,temp.U_NAME),
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('➕ Add Me As Admin In Your Group ➕', url=f'http://t.me/SL_Filters_Bot?startgroup=true')
+                    InlineKeyboardButton('➕ Add Me As Admin In Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],[
                     InlineKeyboardButton("❓ Help", callback_data="help_data")
                 ]
