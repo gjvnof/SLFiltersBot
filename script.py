@@ -1,9 +1,10 @@
 class Script(object):
 
     START_MSG = """Hello {} 👋
-I'm An Advanced Filters Bot 😎"""
+I'm An Advanced Filters Bot 😎
+Add Me As Admin In Your Groups 🤩"""
 
-    HELP_MSG = """Add Me As Admin In Your Group And Start Filtering
+    HELP_MSG = """Here Is The Help For My Commands
 
 <b>Filters Commands:</b>
 /filter - Add Filter
