@@ -1,4 +1,4 @@
-import o
+import os
 import ast
 
 from pyrogram import Client as trojanz
@@ -49,7 +49,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("About", callback_data="about_data")
                 ]
             ]
         )
